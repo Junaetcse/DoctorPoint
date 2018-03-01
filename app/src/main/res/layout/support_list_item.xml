@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#cfcfd1"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88abd9"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Junaet"
+        android:textColor="#1e35e2"
+        android:id="@+id/sp_name"
+        android:textSize="18sp"
+        android:layout_weight="2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12-11-17 10.30"
+        android:id="@+id/sp_date"
+        android:gravity="right"
+        android:textColor="#1832d7"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/sp_status"
+            android:textColor="#ed0707"
+
+            android:text="Some thing ............"
+            />
+</LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#a8ccd2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sd_status"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right|center_horizontal"
+            android:text="Some thing ............"
+            android:textColor="#006400"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/sd_date"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="12-11-17 10.30"
+            android:textColor="#1832d7"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

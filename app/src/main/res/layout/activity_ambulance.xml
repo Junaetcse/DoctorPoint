@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:background="#566fd2"
+        tools:context="com.example.junae.doctorpointnew.ambulance.AmbulanceActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Ambulances Service in Dhaka"
+    android:textSize="20sp"
+    android:textColor="#ffff"
+    android:textStyle="italic"
+    android:gravity="center"
+    android:background="#4d585b"
+    android:padding="6dp"
+    />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/amb_recyclerView"
+            android:scrollbars="vertical"
+            android:layout_margin="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>

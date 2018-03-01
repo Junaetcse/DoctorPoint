@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+    android:background="#566fd2"
+        tools:context="com.example.junae.doctorpointnew.orthopedics.OrthopedicListActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_marginRight="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:gravity="right"
+                android:textColor="#f1d609"
+                android:textSize="20dp"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:gravity="right"
+                android:textColor="#f5f2f3"
+                android:textSize="20dp"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:gravity="right"
+                android:textColor="#faf20d"
+                android:textSize="20dp"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:gravity="right"
+                android:textColor="#f9f9f6"
+                android:textSize="20dp"
+                android:layout_weight="1"
+
+                />
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/orthopedic_listview"
+            android:layout_marginTop="20dp"
+            ></ListView>
+    </LinearLayout>

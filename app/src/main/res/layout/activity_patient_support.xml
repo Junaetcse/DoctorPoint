@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#566fd2"
+    android:orientation="vertical"
+    tools:context="com.example.junae.doctorpointnew.livesupport.PatientSupport">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Live Support"
+        android:textColor="#f7f3f3"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:background="#353333"
+        android:gravity="center"
+        android:textStyle="italic"
+        />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    android:weightSum="5">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginRight="1dp"
+        android:id="@+id/patient_status"
+        android:background="@drawable/edittext_style"
+        android:hint="Write your problem...."
+        android:layout_weight="4"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:text="Send "
+        android:textSize="25sp"
+        android:background="@drawable/button_style"
+        android:onClick="sendProblem"
+        android:textAllCaps="false"
+        android:id="@+id/sendProblem"
+        android:layout_weight="1"
+        android:layout_marginLeft="1dp"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="1dp"
+        >
+
+        <ListView
+            android:id="@+id/support_Listview"
+            android:scrollbars="vertical"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

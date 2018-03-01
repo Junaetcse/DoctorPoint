@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.junae.doctorpointnew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/point"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".auth.UserLoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".medicine_department.MedicineDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity android:name=".medicine_department.AppointmentActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".medicine_department.ListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".dentist.DentalApponitment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".dentist.DentalList"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".diabetologist.DiabetologistDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".diabetologist.DiabetisAppointmentActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".diabetologist.DiabetisListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ent.EntDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Surgeon.SurgeonDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Surgeon.SurgaryAppointment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Surgeon.SurgeryListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".gynecology.GynecologyDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".gynecology.GynecologyAppointment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".gynecology.GynecologyListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".neuromedicine.NeuromedicineDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".neuromedicine.NeuromedicineAppointment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".neuromedicine.NeuromedicineListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".orthopedics.OrthopedicsDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".orthopedics.OrthopedicAppointment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".orthopedics.OrthopedicListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".urologist.UrologistDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".urologist.UrologyAppointment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".urologist.UrologyLIstActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".cardiologyest.CardioDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".cardiologyest.CardiologyAppointment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".cardiologyest.CardiologyListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ent.EntAppointment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ent.EntListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".gastrologist.GastrologistDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".gastrologist.GastologyAppointment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".gastrologist.GastologyListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".design_part.DesignActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".auth.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ambulance.AmbulanceActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".livesupport.PatientSupport"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".dentist.DentDepartment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".favorite_doctor.FavoriteActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".user_feedback.FeedbackActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    card_view:cardCornerRadius="3dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:background="@drawable/item_style"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:weightSum="3"
+
+
+            >
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="#c10808"
+                android:textSize="25sp"
+                android:text="Name"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="50dp"
+android:textColor="#0d7c2b"
+                android:layout_weight="1"
+                android:text="TAPOSH  FRIENDS : ROBI YONDER MUSIC WIND OF CHANGE"
+                android:textSize="18sp"
+
+                />
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
